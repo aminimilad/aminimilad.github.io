@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-image:url(black_background_lines_scratches_69440_1920x1080.jpg);
+	background-repeat:no-repeat;
+	}
+body {
+	background-color:#666;
+	
+	}
+#storbox{
+	width:85%;
+	height:100%;
+	overflow:auto;
+	margin-left:7.5%;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	}
+header{
+	width:100%;
+	height:18%;
+	background-color:#FFFFFF;
+	overflow:hidden;
+	}
+.box{
+	float:left;
+	margin-left:20px;
+	height:100%;
+	width:10%;
+	background-image:url(ch.png);
+	background-repeat:no-repeat;
+	background-size:100% 95%;
+	overflow:auto;
+	}
+nav{
+	width:100%;
+	height:30px;
+	overflow:auto;
+	background-color:#000;
+	}
+ul{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+    }
+li{
+	height:1%;
+	width:33.333333%;
+	float:left;
+	}
+nav a{
+	text-decoration:none;
+	display:block;
+	padding:6px;
+	height:1%;
+	color:#FFF;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	font-variant:small-caps;
+	}
+nav a:hover{
+	transition:ease-in;
+	transition-duration: 0.2s;
+	background-color:#FFF;
+	color:#000;
+	}
+article{
+	width:100%;
+	height:715px;
+	background-color:rgba(102,102,102,0.5);
+	}
+footer{
+	width:100%;
+	height:50px;
+	background-color:#000;
+	}
+.banner{
+	padding:200px;
+	margin-left:20px;
+	}
+.rhino{
+	padding:120px;
+	margin-left:260px;
+	}
+.ch{
+	margin-left:460px;
+	padding:40px;
+	}
+p{
+	color:#FFF;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	font-variant:small-caps;
+	top:0;
+	}
+
+
+
+
