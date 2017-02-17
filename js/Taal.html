@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="bs.css" type="text/css" rel="stylesheet">
+<title>Namnlöst dokument</title>
+</head>
+
+<body>
+<div class="box">
+	<p> Ditt tal ska skrivas här: <b id="stuff"> </b></p>
+    <hr>
+    <input type='button' onClick='skriv()' value='Skriv'/>
+	<script type="text/javascript">
+	function skriv(){
+		var tal = prompt ("Skriv in ditt tal!","Här");
+		
+		if( isNaN(tal))
+		{
+			alert("Skriv in ett tal!");
+		}
+		else{
+			document.getElementById('stuff').innerHTML=tal;
+			}
+		
+		
+					}
+		
+		
+		
+	</script>
+</div>
+</body>
+
+</html>
