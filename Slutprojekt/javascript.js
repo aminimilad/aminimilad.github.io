@@ -11,12 +11,37 @@ inner = c.getElementsByClassName('inreSSH')[0],
 imgs = inner.getElementsByTagName('img'),
 box = c.getElementsByClassName('headline')[0],
 currentImageIndex = 0;
+var windowWidth = window.innerWidth;
 var bubbles = [];
-var width = 100;
+var width = 0;
 var unit = 'vw';
     
 
-	
+var mediaQueryList = window.matchMedia("(orientation: portrait)"); 
+// Create the query list.
+// Define a callback function for the event listener.
+mediaQueryList.addListener(handleOrientationChange); 
+// Add the callback function as a listener to the query list.
+
+handleOrientationChange(); // Run the orientation change handler once.
+
+function handleOrientationChange(evt) {
+  changeWidth();
+}
+
+function changeWidth() {
+
+    if (window.matchMedia("(min-width: 500px)").matches) {
+      /* the viewport is at least 600 pixels wide */
+        width = 100;
+    } else {
+      /* the viewport is less than 600 pixels wide */
+        width = 140;
+    }
+    
+}
+
+
   for (let i = 0; i <  4; i++)
    {
     let b = document.createElement('span');
@@ -30,9 +55,13 @@ var unit = 'vw';
 	  
 	  });
   }
+
   
+
+
 		function switchImg() 
 		{
+
 			inner.style.left = -width * currentImageIndex + unit;
 			
 			bubbles.forEach(function(b, i) 

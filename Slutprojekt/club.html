@@ -1,9 +1,15 @@
 <!doctype html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
 <meta charset="utf-8">
 <link href="index.css" rel="stylesheet" type="text/css">
 <link href="headerscript.js" rel="stylesheet" type="text/javascript">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.7/hammer.min.js"></script>
 <link rel=icon href=favicon.png>
@@ -13,6 +19,7 @@
 <body>
 <div class="headerbox">
     	<header>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 			 <a href="index.html">
                 <div class="juventuslogo"></div>
              </a>                
@@ -39,6 +46,12 @@
 		 <div class="underline1"></div>
          <div class="underline2"></div>
 			</nav>
+            <ul class="topnav" id="myTopnav">
+                  <li><a href="index.html">news</a></li>
+                  <li><a href="club.html">club</a></li>
+                  <li><a href="team.html">team</a></li>
+                  <li><a href="#">hall of fame</a></li>
+                </ul>
 </div>
 
 <div class="container">
@@ -68,7 +81,6 @@
                                 <h3></h3>
                             <p>
                                 Juventus resumed their success after the Second World War. Following the tragic death of Edoardo Agnelli in a plane crash in 1935, his son, Giovanni, took on the role of president in 1947. The club’s most revered champions at the time were Carlo Parola, Danish duo John Hansen and Praest and, most notable of all, Giampiero Boniperti. Cheered on by thousands of fans, they recorded Scudetto triumphs in 1950and 1952.<br>
-
                                 In 1953, Giovanni Agnelli stepped down from the presidency and it was then passed onto his brother Umberto two years later. Juve were on the brink of another triumphant cycle. The arrivals of Omar Sivoriand John Charles helped the Bianconeri to the Scudetto title in 1958 which allowed them to wear a star on their shirts to mark ten national championship victories. The club recorded three further successes during the 1960s, with the last coming in 1967 under the presidency of Vittore Catella. 
                             </p>
                         </div>
@@ -80,19 +92,19 @@
             </div>
         </div>
         <div class="blockMisc">
-            <div class="blockImageRacism"></div>
-                <div class="blockTextRacism">
+        <div class="blockTextRacism">
                     <h3>Un calcio al razzismo</h3>
                         <p>
                             Juventus has been constantly engaged in the fight against racism through various local and international initiatives. “Un calcio al Razzismo” is an example of a concrete initiative, born in 2009, through which Juventus and the UNESCO Centre in Torino express their commitment in promoting the values of sport and in offering tangible support to young people involved in the fight against racism.  Un Calcio Al Razzismo, now at its 7th edition, contributes, with 5000 EURO per year, to projects, implemented either by young people between 18 and 25, or by NGOs, whose aim is to fight racism or any other form of discrimination.
                         </p>
                 </div>
+                <div class="blockImageRacism"></div>
         </div>
         <div class="blockAcademy">
             <div class="blockText">
                 <h3>Education and Integration</h3>
                 <p>
-                    For several years now, Juventus has been organising special training activities for children and teenagers, from “Gioca con Me” to the several projects of the J|Academy that seek to combine sports with education as a way to help each single child grow as a person. All projects have clear underlying values such as respect for teamwork, spirit of sacrifice and education. An educated child who is encouraged to behave responsibly in the future will become an adult who is ready to enter the work world and interact well in society.<br>
+                    For several years now, Juventus has been organising special training activities for children and teenagers, from “Gioca con Me” to the several projects of the J|Academy that seek to combine sports with education as a way to help each single child grow as a person. All projects have clear underlying values such as respect for teamwork, spirit of sacrifice and education.<br>
                     Juventus condemns any kind of discrimination and with the help of UNESCO, over the past few years it has succeeded in giving shape to this unflinching commitment.
             </div>
             <div class="blockImage">
@@ -120,7 +132,7 @@
                 </div>
                 <div class="trophy">
                     <img src="copa3.png" class="trophy3">
-                    <h5>uefa champions league</h5>
+                    <h5>champions league</h5>
                     <p>2</p>
                 </div>
                 <div class="trophy">
@@ -174,10 +186,62 @@
         </div>
     </div>
 </footer>
+
+<script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="headerscript.js"></script>
 <script src="slideinRight.js"></script>
 <script src="slideinLeft.js"></script>
 <script src="textslideshow.js"></script>
+<script>
+    $('.trophies').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
 </body>
 </div>
 </html>
