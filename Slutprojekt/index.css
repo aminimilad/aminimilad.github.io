@@ -47,6 +47,14 @@ html{
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'montserrat';
+    src: url('montserrat-medium-webfont.woff2') format('woff2'),
+         url('montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 #storbox{
 		top:0;
 		width:100%;
@@ -86,7 +94,7 @@ header
 	}
 h1
 	{
-		font-family:montserrat, "montserrat Medium";
+		font-family:montserrat;
 		font-size:4.3vw;
 		color:#ffae00;
 		font-variant:small-caps;
@@ -174,7 +182,7 @@ nav
 ul
 	{
 		margin-left:35px;
-		font-family:montserrat, "montserrat Medium";
+		font-family:montserrat;
 		font-size:1.44837vw;
 		letter-spacing:-0.5px;
 		text-align:center;
@@ -828,7 +836,7 @@ width:60%;
 .titleSurname{
 	margin-top:0.5vw;
 	font-size: 6.6vw;
-	font-family: montserrat, "montserrat Medium";
+	font-family: montserrat;
 		font-variant: small-caps;
 
 
@@ -836,7 +844,7 @@ width:60%;
 .titleWname{
 	margin-top:0.7vw;
 	font-size:2vw;
-	font-family:  montserrat, "montserrat Medium";
+	font-family:  montserrat;
 }
 .logoboxContainer{
 	height:15vw;
@@ -946,7 +954,7 @@ height:100%;
 	width:100%;
 	margin-top: 3vw;
 	height:9vw;
-	font-family: montserratlight, "montserrat Medium";
+	font-family: montserratlight;
 	font-size: 2vw;
 	text-align: center;
 	color:white;
@@ -1640,7 +1648,7 @@ ul.topnav.responsive li{
 	.titleWname{
 		margin-top:0.7vw;
 		font-size:4vw;
-		font-family:  montserrat, "montserrat Medium";
+		font-family:  montserrat;
 	}
 	.logoboxContainer{
 		height:auto;
