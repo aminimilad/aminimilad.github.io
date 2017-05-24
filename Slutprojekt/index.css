@@ -117,7 +117,7 @@ h1
 		float:left;
 		width:20vw;
 		height: 60%;
-		margin-top: 1vw;
+		margin-top: 0.9vw;
 		overflow: hidden;
 	}
 	.Secondary-Header{
@@ -808,25 +808,6 @@ width:60%;
 	color:white;
 
 }
-/* kkkk*/
-.boxi{
-	width:100%;
-	height:80%;
-	background-color:red;
-	display: inline-block;
-}
-.txto{
-	font-family: latoregular;
-	font-size:80px;
-	margin-top: 100px;
-	background-color: yellow;
-	height: 100px;
-	width:50px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-/*kkkk*/
 .main-title{
 	font-variant: small-caps;
 	font-size: 1.5vw;
@@ -837,9 +818,7 @@ width:60%;
 	margin-top:0.5vw;
 	font-size: 6.6vw;
 	font-family: montserrat;
-		font-variant: small-caps;
-
-
+	font-variant: small-caps;
 }
 .titleWname{
 	margin-top:0.7vw;
@@ -919,7 +898,7 @@ width:60%;
 	background-color:#F0F0F0;
 }
 .boxTrophy
-{
+{	
 	width:100%;
 	height:36vw;
 	position:relative;
@@ -932,7 +911,7 @@ width:60%;
 }
 .inner
 {
-height:100%;
+	height:100%;
 	width:80%;
 	margin-left: 10%;
 }
@@ -1104,8 +1083,9 @@ footer{
 	height:4.5vw;
 	width:100%;
 	background-color:rgba(0,0,0,1);
-	margin-top:12vw;
+	top:0;
 	margin: auto;
+	letter-spacing: 0;
 }
 .breadcrumb li{
 	color:grey;
@@ -1116,6 +1096,8 @@ footer{
 	margin-left:3vw;
 	text-transform: none;
 	width:0;
+	line-height: normal;
+	margin-right:0;
 }
 ul.breadcrumb li+li:before {
     color: white;
@@ -1133,7 +1115,6 @@ ul.breadcrumb li+li:before {
     -webkit-user-select: none;
 	-ms-user-select:none;
     user-select: none;
-
 }
 .introimage h2{
 	vertical-align: middle;
@@ -1681,7 +1662,7 @@ ul.topnav.responsive li{
 		height:19vw;
 	}
 	.logobox h5{
-		font-size: 3.85vw;
+		font-size: 3.7vw;
 		width:auto;
 		font-variant: small-caps;
 		font-family: latoregular;
@@ -1691,7 +1672,7 @@ ul.topnav.responsive li{
 	.counter-value {
 		font-family: montserrat;
 		font-size:9vw;
-		margin-top:0.75vw;
+		margin-top:1vw;
 	}
 	.BtnHallOfFame{
 		display: table;	
@@ -1743,23 +1724,14 @@ ul.topnav.responsive li{
 		margin-left: 0;
 		margin-right: 0;
 		height:auto;
-
+		margin-top:53px;
 	}
-	.breadcrumb{
-		height:13vw;
-		margin-top:4vw;
-	}
-	.breadcrumb li{
-		padding:4.5vw;
-		font-size:4vw;
-		margin-top:2vw;
-	}
+	
 	.introimage{
 		height:58vw;
 	}
 	.introimage h2{
 		font-size:24vw;
-		top:32.5vw;
 	}
 	.blockHistory{
 		height:86vw;
@@ -1770,37 +1742,46 @@ ul.topnav.responsive li{
 	.blockAcademy{
 		height:65vw;		
 	}
+	.clubImage{
+	height:73vw;
+	}
 	.has-slider, .blockTextRacism, .blockText, .blockImage, .blockImageRacism{
 		width:100%;
 	}
 	.blockHistory h3,.blockMisc h3, .blockAcademy h3{
-		font-size:6.7vw;
+		font-size:7vw;
 	}
 	.blockHistory p,.blockMisc p, .blockAcademy p{
 		font-size:3.7vw;
 	}
-
+	.breadcrumb{
+		display: none;
+	}
+	
 
 }
 @media only screen and (min-width: 680px) and (max-width: 767px){
-.headline{
-	font-size: 27px;
-	width:90vw;
-	margin-top:39vw;
-}
-.undertext{
-font-size: 2.5vw;
-}
-.yttreSSH{
-	height:48vw;
-}
-.inreSSH{
+	.headline{
+		font-size: 27px;
+		width:90vw;
+		margin-top:39vw;
+	}
+	.undertext{
+		font-size: 2.5vw;
+	}
+	.yttreSSH{
 		height:48vw;
 	}
-img{
-	width:100vw;
-	height:50vw;
-}
+	.inreSSH{
+		height:48vw;
+		}
+	img{
+		width:100vw;
+		height:50vw;
+	}
+	.trophies p{
+		margin-top:6vw;
+	}
 }
 @media only screen and (min-width: 500px) and (max-width: 679px){
 	.headline{
@@ -1820,7 +1801,10 @@ img{
 	img{
 	width:100vw;
 	height:50vw;
-}
+	}
+	.introimage h2{
+		top:17vw;
+	}
 }
 @media only screen and (min-width: 300px) and (max-width: 499px){
 	.headline{
@@ -1840,6 +1824,10 @@ img{
 	.next, .prev{
 	transform: translateY(-100%);
 	}
+	.introimage h2{
+		top:26vw;
+	}
+
 }
 @media screen and (min-width: 768px) and (max-width: 1200px)
 {
@@ -1992,28 +1980,32 @@ img{
 		margin-left: 0;
 		margin-right: 0;
 		height:auto;
-
+		margin-top:11vw;
 	}
 	.breadcrumb{
-		height:13vw;
-	}
+		height:6vw;
+			}
 	.breadcrumb li{
-		padding:4.5vw;
-		font-size:4vw;
-		margin-top:2vw;
+		padding:1vw;
+		font-size:1.5vw;
+		margin-top:1.5vw;
 	}
 	.introimage{
-		height:58vw;
-	}
+
+	height:48vw;
+}
+
 	.introimage h2{
 		font-size:20vw;
-		top:35vw;
+		top:24vw;
+
 	}
 	.blockHistory{
 		height:45vw;
 	}
+
 	.blockMisc{
-		height:40vw;
+		height:43vw;
 	}
 	.blockAcademy{
 		height:38vw;		
@@ -2025,7 +2017,6 @@ img{
 	.blockHistory p,.blockMisc p, .blockAcademy p{
 		font-size:2.2vw;
 	}
-
 
 }
 
