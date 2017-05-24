@@ -1829,7 +1829,7 @@ ul.topnav.responsive li{
 	}
 
 }
-@media screen and (min-width: 768px) and (max-width: 1200px)
+@media screen and (width: 768px) and (max-width: 1200px)
 {
 	ul.topnav{
 		display: none;
