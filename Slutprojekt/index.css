@@ -1835,8 +1835,8 @@ ul.topnav.responsive li{
 		display: none;
 	}
 	.Main-Header{
-		height:5vw;
-		margin-top:1.8vw;
+		height:auto;
+		margin-top:1.3vw;
 	}
 	.yttreSSH{
 		margin-top:11vw;
