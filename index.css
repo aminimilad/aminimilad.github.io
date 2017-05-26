@@ -95,7 +95,7 @@ header
 h1
 	{
 		font-family:montserrat;
-		font-size:5.3vw;
+		font-size:4.6vw;
 		color:#ffae00;
 		font-variant:small-caps;
 		font-weight:500;
@@ -117,7 +117,7 @@ h1
 		float:left;
 		width:20vw;
 		height: 60%;
-		margin-top: 1vw;
+		margin-top: 1.5vw;
 		overflow: hidden;
 	}
 	.Secondary-Header{
@@ -1090,12 +1090,11 @@ footer{
 .breadcrumb li{
 	color:grey;
 	text-align: left;
-	padding:1.5vw 0.5vw;
+	padding:1.5vw;
 	font-family: latoregular;
 	font-size:1.3vw;
 	margin-left:3vw;
 	text-transform: none;
-	width:0;
 	line-height: normal;
 	margin-right:0;
 }
@@ -1296,64 +1295,67 @@ ul.breadcrumb li+li:before {
 }
 /*==================TEAM===================*/
 .teamcontainer{
-	background-color:white;
-	width:75%;
-	height:210vw;
-	margin:auto;
-	margin-top:11vw;
-	-khtml-user-select: none;
+    background-color:white;
+    width:75%;
+    height:210vw;
+    margin:auto;
+    margin-top:11vw;
+    -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
-	-ms-user-select:none;
+    -ms-user-select:none;
     user-select: none;
-	overflow: hidden;
+    overflow: hidden;
 }
 .alternatives{
-	width: 100%;
-	height:42vw;
-	background-color: #FFAE00;
-
+    width: 100%;
+    height:42vw;
+    background-color: #FFAE00;
+    clear:left;
+    
 }
 .goalkeepers, .defenders, .midfelders, .strikers{
-	width:50%;
-	height:21vw;
-	float:left;
-	overflow: hidden;
-	position: relative;
-		transition: ease-in-out 0.55s;
+    width:50%;
+    height:21vw;
+    float:left;
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out 0.55s;
 }
 .goalkeepers img{
-	width:100%;
-	height:120%;
-	margin-top:-3.5vw;
-	transition: ease-in-out 0.5s;}
+    width:100%;
+    height:120%;
+    margin-top:-3.5vw;
+    transition: ease-in-out 0.5s;
+    
+}
 .defenders img{
-	width:100%;
-	height:100%;
-	transition: ease-in-out 0.5s;
-	position: relative;
+    width:100%;
+    height:100%;
+    transition: ease-in-out 0.5s;
+    position: relative;
 }
 .midfelders img{
-	width:100%;
-	height:100%;
-	transition: ease-in-out 0.5s;
-	position: relative;
+    width:100%;
+    height:100%;
+    transition: ease-in-out 0.5s;
+    position: relative;
 }
 .strikers img{
-	width:100%;
-	height:115%;
-	transition: ease-in-out 0.5s;
-	position: relative;
+    width:100%;
+    height:115%;
+    transition: ease-in-out 0.5s;
+    position: relative;
 }
 .texto h3{
-	margin-top:0;
-	margin-left:0;
-	text-align: center;
-	font-variant: small-caps;
-	font-weight: 100;
-	font-size: 2.9vw;
-	font-family: montserratlight;
+    margin-top:0;
+    margin-left:0;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 100;
+    font-size: 2.9vw;
+    font-family: montserratlight;
 }
 .texto {
   width: auto;
@@ -1379,132 +1381,128 @@ ul.breadcrumb li+li:before {
 }
 @media (min-width: 1200px){
 
-	.goalkeepers:hover img, .defenders:hover img, .midfelders:hover img, .strikers:hover img{
-	  -webkit-filter: grayscale(50%) blur(5px);
-	  filter: grayscale(15%) blur(5px);
-	  transition: 0.5s ease-in-out;
-	  transform: scale(1.05);
-	}
-	.imagebox:hover > .flag{
-	margin-left:-2.5vw;
-	}
+    .goalkeepers:hover img, .defenders:hover img, .midfelders:hover img, .strikers:hover img{
+      -webkit-filter: grayscale(50%) blur(5px);
+      filter: grayscale(15%) blur(5px);
+      transition: 0.5s ease-in-out;
+      transform: scale(1.05);
+    }
+    .imagebox:hover > .flag{
+    margin-left:-2.5vw;
+    }
 
-	.goalkeepers:hover >.texto:after{
-    width: 100%;
-    background: white;
-	}	
+    
+    .defenders:hover > .texto:after{
+        width: 100%;
+        background: white;
+    }
 
-	.defenders:hover > .texto:after{
-	    width: 100%;
-	    background: white;
-	}
+    .midfelders:hover > .texto:after{
+        width: 100%;
+        background: white;
+    }
 
-	.midfelders:hover > .texto:after{
-	    width: 100%;
-	    background: white;
-	}
-
-	.strikers:hover > .texto:after{
-	    width: 100%;
-	    background: white;
-	}
+    .strikers:hover > .texto:after{
+        width: 100%;
+        background: white;
+    }
 
 }
 
 
 .quotebox{
-	width:100%;
-	height:26vw;
-	background-color: white;
-	border-bottom: 0.3vw black solid;
-	border-top: 0.3vw black solid;
-	background-image: url(altlogo.png);
-	background-size: cover;
+    width:100%;
+    height:26vw;
+    background-color: white;
+    border-bottom: 0.3vw black solid;
+    border-top: 0.3vw black solid;
+    background-image: url(altlogo.png);
+    background-size: cover;
 
 }
 .goalkeeperbox{
-	height:30vw;
-	width:100%;
-	margin-top:3vw;
+    height:30vw;
+    width:100%;
+    margin-top:3vw;
 }
 .defenderbox{
-	height:30vw;
-	width:100%;
-	margin-top:3vw;
+    height:30vw;
+    width:100%;
+    margin-top:3vw;
 }
 .midfelderbox{
-	height:30vw;
-	width:100%;
-	margin-top:3vw;
+    height:30vw;
+    width:100%;
+    margin-top:3vw;
 }
 .strikerbox{
-	height:30vw;
-	width:100%;
-	margin-top:3vw;
+    height:30vw;
+    width:100%;
+    margin-top:3vw;
 }
 .box-header{
-	width:100%;
-	height:6vw;
+    width:100%;
+    height:6vw;
 }
 .box-header h2{
-	margin-top:0;
-	margin-left: 4vw;
-	height:auto;
-	color:black;
-	font-size:3vw;
+    margin-top:0;
+    margin-left: 4vw;
+    height:auto;
+    color:black;
+    font-size:3vw;
 }
 .teamslider{
-	height:21vw;
-	width:95%;
-	margin-left:2.5%;
-	display: flex;
-	background-color: white;
+    height:21vw;
+    width:95%;
+    margin-left:2.5%;
+    display: flex;
+    background-color: white;
 }
 .teamplayer{
-	width:25%;
-	height:100%;
-	background-color:white;
-	overflow: hidden;
-	text-align: center;
-	border-left:0.35vw white solid;
-	border-right:0.35vw white solid;
+    width:25%;
+    height:100%;
+    background-color:white;
+    overflow: hidden;
+    text-align: center;
+    border-left:0.35vw white solid;
+    border-right:0.35vw white solid;
 }
 .imagebox{
-	width:100%;
-	height:17.1vw;
-	background-color:#FcFcFc;
-	overflow: hidden;
-	position: relative;
+    width:100%;
+    height:17.1vw;
+    background-color:#FcFcFc;
+    overflow: hidden;
+    position: relative;
 }
 .teamplayer img{
-	width:65%;
-	margin:auto;
-	height: 100%;
+    width:65%;
+    margin:auto;
+    height: 100%;
 }
 .flag{
-	width:8vw;
-	height:5vw;
-	margin-left:-8vw;
-	position: absolute;
-	transform: skewX(-20deg);
-	overflow: hidden;
-	transition: ease-in-out 0.55s;
+    width:8vw;
+    height:5vw;
+    margin-left:-8vw;
+    position: absolute;
+    transform: skewX(-20deg);
+    overflow: hidden;
+    transition: ease-in-out 0.55s;
 }
 .flag img{
-	width:100%;
-	margin-left:12.5%;
-	transform: skewX(20deg);
+    width:100%;
+    margin-left:12.5%;
+    transform: skewX(20deg);
 }
 .namebox{
-	height:5.6vw;
-	width:100%;
-	background-color:black;
-	text-align: center;
-	line-height: 6vw;
-	display: flex;
-	font-family: montserratlight;
-	color: white;
-	border-top:#FFAE00 0.3vw solid;
+    height:5.6vw;
+    width:100%;
+    background-color:black;
+    text-align: center;
+    line-height: 6vw;
+    display: flex;
+    font-family: montserratlight;
+    color: white;
+    border-top:#FFAE00 0.3vw solid;
 }
 .number {
   position: relative;
@@ -1526,102 +1524,294 @@ ul.breadcrumb li+li:before {
 }
 
 .name{
-	color:white;
-	width:40%;
-	height:5.6vw;
-	font-size:1.4vw;
-	line-height: 2vw;
-	text-align: left;
-	margin-top:0.9vw;
-	margin-left:1vw;
+    color:white;
+    width:40%;
+    height:5.6vw;
+    font-size:1.4vw;
+    line-height: 2vw;
+    text-align: left;
+    margin-top:0.9vw;
+    margin-left:1vw;
 }
+/*===================HALL OF FAME aka HOF===============*/
+.HOFcontainer{
+    background-color:white;
+    width:75%;
+    height:210vw;
+    margin:auto;
+    margin-top:11vw;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select: none;
+    overflow: hidden;
+}
+.introimageHOF{
+    background-image:url(halloffame.png);
+    background-size:cover;
+    width:100%;
+    height:36vw;
+    border-bottom: 1vw white double;
+}
+.headerHOF{
+	width:100%;
+	height:12vw;
+}
+.headerHOF h2{
+    color:black;
+    position:relative;
+    height:auto;
+    width:auto;
+}
+
+/*====CDP==*/
+.accordion {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top:1vw;
+}
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+  height:100%;
+}
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  margin-left:0;
+  margin-right:0;
+  width: 25%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+  float:none;
+}
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.accordion ul li div a {
+  display: block;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  vertical-align: bottom;
+  padding: 55px 25px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.accordion ul li div a h2 {
+  font-family: Montserrat, sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: unset;
+  margin-bottom: 2px;
+  top: 165px;
+}
+.accordion ul li div a p {
+  top: 165px;
+  font-size: 13.5px;
+  font-weight: 100;
+  margin-left:0;
+  height:auto;
+}
+.accordion ul li:nth-child(1) {
+  background-image: url("zidane.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(2) {
+  background-image: url("nedved.png");
+  background-size: cover;
+}
+.accordion ul li:nth-child(3) {
+  background-image: url("davids.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(4) {
+  background-image: url("delpiero.jpg");
+  background-size: cover;
+}
+.accordion ul:hover li:hover {
+  width: 50%;
+}
+.accordion ul:hover li:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+.accordion ul:hover li:hover a * {
+  opacity: 1;
+transform:none;
+}
+
+@media screen and (max-width: 985px) {
+    
+
+  .accordion {
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    max-width: 85%;
+    margin-left:7.5%;
+  }
+  .accordion ul li,
+  .accordion ul li:hover,
+  .accordion ul:hover li,
+  .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+    transform:none;
+  }
+  .accordion ul li div a {
+  width: 100%;
+  position: relative;
+  margin-left:0;
+  text-decoration: none;
+   transform: none;
+   opacity: 1;
+}
+.accordion ul{
+    width: 100%;
+    margin:auto;
+    line-height: normal;
+}
+.accordion ul li{
+    width: 100%;
+    
+}
+.accordion ul li div a * {
+ 
+ transform:none;
+  opacity: 1;
+}
+
+.accordion ul li a {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+}
+/*====CDP END==*/
+
+    
 
 /*================MOBILE===================*/
 
 
 /*=============HEADER==========*/
 #myTopnav{
-	transition: ease-in-out 0.65s;
-	margin-top:-50%;
-	margin-left:0;
+    transition: ease-in-out 0.65s;
+    margin-top:-50%;
+    margin-left:0;
 }
 ul.topnav.responsive li a
-{  		
-	margin-left: 20px;
+{       
+    margin-left: 20px;
   }
  .icon{
- 	display: none;
+    display: none;
  }
 .trophy1, .trophy2, .trophy3, .trophy4, .trophy5, .trophy6, .trophy7, .trophy8{
-	margin-left: auto;
-	margin-right: auto;
-}			
+    margin-left: auto;
+    margin-right: auto;
+}           
 @media  (max-width: 767px) {
 
 header{
-	width:100%;
-	height:53px;
-	background-color: rgba(0,0,0,1);
-	position:relative;
-	transition: height 0.3s linear 0s, padding 0.3s linear 0s;
-	border-bottom-style: solid;
-	border-bottom-color:#FFAE00;
-	border-bottom-width:3px;
-	overflow:visible;
-	}
+    width:100%;
+    height:53px;
+    background-color: rgba(0,0,0,1);
+    position:relative;
+    transition: height 0.3s linear 0s, padding 0.3s linear 0s;
+    border-bottom-style: solid;
+    border-bottom-color:#FFAE00;
+    border-bottom-width:3px;
+    overflow:visible;
+    }
 
 .icon{
-	font-size:33px;
-	float:left;
-	margin-left: 10px;
-	color:#FFAE00;
-	display: inline-block;
-	-webkit-transform:scale(1.25,1);
+    font-size:33px;
+    float:left;
+    margin-left: 10px;
+    color:#FFAE00;
+    display: inline-block;
+    -webkit-transform:scale(1.25,1);
     -moz-transform:scale(1.25,1);  
     -o-transform:scale(1.25,1); 
-	transform:scale(1.25,1); 
-	}
+    transform:scale(1.25,1); 
+    }
 nav{
-	display: none;
-	}						
+    display: none;
+    }                       
 h1{
-	display: none;
-	}
+    display: none;
+    }
 .adidaslogo1{
-	display: none;
-	}
+    display: none;
+    }
 .t24option{
-	display: none;
-	}
+    display: none;
+    }
 .juventuslogo
-	{		
-	height:56px;
-	width:34px;
-	margin: 0 auto;
-	position:relative;	
-	float: none;
-	margin: auto;
-	}
+    {       
+    height:56px;
+    width:34px;
+    margin: 0 auto;
+    position:relative;  
+    float: none;
+    margin: auto;
+    }
 .Main-Header{
-	display: none;
-	}
+    display: none;
+    }
 ul.topnav li{
-	display:none;
-	}
+    display:none;
+    }
 ul.topnav.responsive{
-	position:relative;
-	height:100%;
-	}
+    position:relative;
+    height:100%;
+    }
 ul.topnav.responsive li.icon{
-	position: absolute;
-	right: 0;
-	top: 0;
-	}				  
+    position: absolute;
+    right: 0;
+    top: 0;
+    }                 
 ul.topnav.responsive li{
     float:none;
     display:block;
     padding:20px;
-	margin:0;
+    margin:0;
     font-size:15px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -1629,10 +1819,10 @@ ul.topnav.responsive li{
     width:100%;
   }
   ul#myTopnav.responsive{
-  	margin-left:0;
-  	height:100%;
-  	margin-top:0;
-  	background-color:black;
+    margin-left:0;
+    height:100%;
+    margin-top:0;
+    background-color:black;
   }
   ul.topnav.responsive li a {
     display:block;
@@ -1640,741 +1830,755 @@ ul.topnav.responsive li{
 
   }
   .yttreSSH{
-  	margin-top:53px;
-  	height:90vw;
+    margin-top:53px;
+    height:90vw;
   }
   img{
-  	width:140vw;
-		height:90vw;
+    width:140vw;
+        height:90vw;
 
   }
   .inreSSH{
-		height:90vw;
+        height:90vw;
 
-	}
+    }
   .headline 
-	{
-  		color:#FFFFFF;
-		font-family:montserrat;
-  		font-size: 3.5vw;
- 		margin-left:5px;
-		margin-top:81vw;
- 		position:absolute;
-		background-color: rgba(0,0,0,0.55);
-		border-style: solid;
-		border-width: 1vw;
-		border-color: rgba(0,0,0,0);
-		transition: ease-in-out 1s;
-	}
+    {
+        color:#FFFFFF;
+        font-family:montserrat;
+        font-size: 3.5vw;
+        margin-left:5px;
+        margin-top:81vw;
+        position:absolute;
+        background-color: rgba(0,0,0,0.55);
+        border-style: solid;
+        border-width: 1vw;
+        border-color: rgba(0,0,0,0);
+        transition: ease-in-out 1s;
+    }
 .sliderLine
-	{
-		display:block;
-		height:0.7vw;
-		background-color:#FFAE00;
-		width:150px;
-		transition: none;
-		margin-top:1.5vw;
-	}
+    {
+        display:block;
+        height:0.7vw;
+        background-color:#FFAE00;
+        width:150px;
+        transition: none;
+        margin-top:1.5vw;
+    }
 .undertext
-	{
-		color:#FFFFFF;
-		font-size:1.4vw;
-		width:auto;
-		height:200px;
-		margin-top:1vw;
-	}
+    {
+        color:#FFFFFF;
+        font-size:1.4vw;
+        width:auto;
+        height:200px;
+        margin-top:1vw;
+    }
 .slider1,.slider2,.slider3,.slider4{
-	transform: translateY(-25%);
-	}
+    transform: translateY(-25%);
+    }
 .next, .prev{
-	transform: translateY(-100%);
-	}
-	.navbubblor{
-		height:5px;
-	}
+    transform: translateY(-100%);
+    }
+    .navbubblor{
+        height:5px;
+    }
 
 /*=============PARTNER==========*/
-	.partners{
-		display: none;
-	}
+    .partners{
+        display: none;
+    }
 /*===============NEXTGAMEBOX===========*/
 .NextGameContainer{
-	height:auto;
-	}
-	.nextGame{
-		float:none;
-		width:100%;
-		height:35vw;
-		vertical-align: middle;
-		background-size: 110% 180%;
-		background-position: -25px -60px;
-	}
-	.galleryG{
-		float:left;
-		width:50%;
-		height: 25vw;
-    	background-image:url(gallery.jpg);
-  		background-size: 100% 140%;
-		background-repeat: no-repeat;
-	}
-	.galleryA{
-		float:left;
-		width:50%;
-		height:25vw;
-		background-image: url(gallery.jpg);
-		background-size: 100% 140%;
-		background-repeat: no-repeat;
-	}
-	.h{
-		display: none;
-	}
-	.headlineXS{
-		transform :translateY(10vw);
-		color:white;
-		font-size: 5vw;
-		margin:auto;
-		text-align: right;
-		margin-right: 3vw;
-		display: block;
-		}
-	.galleryA .headlineXS{
-		margin-right:1.5vw;
-	}
-	.sliderXS{
-		display: none;
-	}
-	.galleryG .undertext{
-		display: none;
-	}
-	
-	.nextGame h5{
-	font-family: open_sans_condensedbold;
-	font-size: 10vw;
-	font-variant: small-caps;
-	margin-top: 9vw;
-	margin-left:1.2vw;
-	margin-right:1.5vw;
-	float:left;
-	height: 4.8vw;
-	}
-	.datetime{
-			text-align: center;
-			font-family: latoregular;
-			margin:auto;
-			margin-top:27vw;
-		}
-	.datetime h4{
-		font-size:2.3vw;
-	}
-	.team1{
-		height:16.2vw;
-		width:9.5vw;
-		margin-top:10vw;
-		float:left;
-		}
-	.team2{
-		height:16.2vw;
-		width:9.5vw;
-		margin-top:10vw;
-		float: left;
-		}
-	article{
-		width:100%;
-		margin-left:0;
-		height:345vw;
-	}
-	.header{
-		height:15vw;
-	}
-	.header h2{
-		font-size:9vw;
+    height:auto;
+    }
+    .nextGame{
+        float:none;
+        width:100%;
+        height:35vw;
+        vertical-align: middle;
+        background-size: 110% 180%;
+        background-position: -25px -60px;
+    }
+    .galleryG{
+        float:left;
+        width:50%;
+        height: 25vw;
+        background-image:url(gallery.jpg);
+        background-size: 100% 140%;
+        background-repeat: no-repeat;
+    }
+    .galleryA{
+        float:left;
+        width:50%;
+        height:25vw;
+        background-image: url(gallery.jpg);
+        background-size: 100% 140%;
+        background-repeat: no-repeat;
+    }
+    .h{
+        display: none;
+    }
+    .headlineXS{
+        transform :translateY(10vw);
+        color:white;
+        font-size: 5vw;
+        margin:auto;
+        text-align: right;
+        margin-right: 3vw;
+        display: block;
+        }
+    .galleryA .headlineXS{
+        margin-right:1.5vw;
+    }
+    .sliderXS{
+        display: none;
+    }
+    .galleryG .undertext{
+        display: none;
+    }
+    
+    .nextGame h5{
+    font-family: open_sans_condensedbold;
+    font-size: 10vw;
+    font-variant: small-caps;
+    margin-top: 9vw;
+    margin-left:1.2vw;
+    margin-right:1.5vw;
+    float:left;
+    height: 4.8vw;
+    }
+    .datetime{
+            text-align: center;
+            font-family: latoregular;
+            margin:auto;
+            margin-top:27vw;
+        }
+    .datetime h4{
+        font-size:2.3vw;
+    }
+    .team1{
+        height:16.2vw;
+        width:9.5vw;
+        margin-top:10vw;
+        float:left;
+        }
+    .team2{
+        height:16.2vw;
+        width:9.5vw;
+        margin-top:10vw;
+        float: left;
+        }
+    article{
+        width:100%;
+        margin-left:0;
+        height:345vw;
+    }
+    .header{
+        height:15vw;
+    }
+    .header h2{
+        font-size:9vw;
 
-	}
-	.newsblockContainer{
-		margin-left:5.4vw;
-		height:322vw;
-	}
-	.blockA{
-		width:98%;
-		height:62vw;
-	}
-	.blockB{
-		width:98%;
-		height:66vw;
-		margin-top:1.5vw;
-		background-size:100% 180%;
-		background-position:0 -10vw;
-	}
-	.blockC{
-		width:98%;
-		height:58vw;
-		margin-top:1.5vw;
-	}
-	.blockD{
-		width:98%;
-		height:66vw;
-		background-size: 100% 190%;
-		background-position: 0 -36.5vw;
-		margin-top:1.5vw;
-	}
-	.blockE{
-		width:98%;
-		height:62vw;
-		margin-top: 1.5vw;
-		background-size:240% 200%;
-		background-position:-14vw 0;
-		filter: invert(1);
-	-webkit-filter:invert(1);
-	}
-	.headlineBox{
-		height:15vw;
-		left:0;
-	}
-	.GoToBtn{
-		width:25vw;
-		right:-5vw;
-	}
-	.txt{
-		padding:4.8vw;
-		font-size:4.5vw;
-	}
-	.headlineBox h3{
-		font-size: 6vw;
-		padding:0.5vw;
-	}
-	.headlineBox h4{
-		font-size: 5.6vw;
-		padding:0.5vw;
-	}
-	.dateofpublish{
-			font-size:2vw;
-			margin-left:2vw;
-	}
-	.halloffame{
-		height:180vw;
-		background-size: 290% 100%;
-		background-position: -60vw 0;
-	}
-	.title{
-		width:auto;
-		margin-left:auto;
-		margin-right:auto;
-	}
-	.main-title{
-		font-size:6vw;
-	}
-	.titleSurname{
-		font-size:14vw;
-		width:auto;
-	}
-	.titleWname{
-		margin-top:0.7vw;
-		font-size:4vw;
-		font-family:  montserrat;
-	}
-	.logoboxContainer{
-		height:auto;
-		width:100%;
-		display: table-cell;
-	}
-	.logobox{
-		height:30vw;
-		width:20vw;
-		margin-left: 15vw;
-		margin-right:15vw;
-		margin-top:12vw;
-		color:white;
-		float:left;
-	}
-	.image1{
-		width:19vw;
-		height:19vw;
-	}
-	.image2{
-		width:19vw;
-		height:19vw;
-	}
-	.image3{
-		width:19vw;
-		height:19vw;
-	}
-	.image4{
-		width:19vw;
-		height:19vw;
-	}
-	.logobox h5{
-		font-size: 3.7vw;
-		width:auto;
-		font-variant: small-caps;
-		font-family: latoregular;
-		font-weight: bold; 
-		margin-top:0.75vw;
-	}
-	.counter-value {
-		font-family: montserrat;
-		font-size:9vw;
-		margin-top:1vw;
-	}
-	.BtnHallOfFame{
-		display: table;	
-		background-color:#FFFFFF;
-		padding:4vw 7vw;
-		margin-top:15vw;
-		margin-left:auto;
-		margin-right: auto;
-		text-align: center;
-		font-family: raleway;
-		font-weight: bold;
-		color:#000000;
-		font-size:4.5vw;
-		font-variant: small-caps;
-		transition:ease-in-out 0.7s;
-	}
-	.boxTrophy{
-		height: 60vw;
-	}
-	.h2{
-		font-size:9vw;
-		line-height: normal;
-		margin-top: 1vw;
-	}
-	.inner{
-		width:100%;
-		margin-left: 0;
-		
-	}
-	.trophies{
-		width:80%;
-		margin:auto;
-		height:20vw;
-		margin-top:4vw;
-	}
-	.trophies h5{
-		font-size:3vw;
-	}
-	.trophies p{
-		font-size:5vw;
-	}
-	.trophy1, .trophy2, .trophy3, .trophy4, .trophy5, .trophy6, .trophy7, .trophy8{
-		height:20vw;
-		width:20vw;
-	}
-	/*================CLUB - MEDIA QUERY========================================*/
-	.container{
-		width:100%;
-		margin-left: 0;
-		margin-right: 0;
-		height:auto;
-		margin-top:53px;
-	}
-	
-	.introimage{
-		height:58vw;
-	}
-	.introimage h2{
-		font-size:24vw;
-	}
-	.blockHistory{
-		height:86vw;
-	}
-	.blockMisc{
-		height:73vw;
-	}
-	.blockAcademy{
-		height:65vw;		
-	}
-	.clubImage{
-	height:73vw;
-	}
-	.has-slider, .blockTextRacism, .blockText, .blockImage, .blockImageRacism{
-		width:100%;
-	}
-	.blockHistory h3,.blockMisc h3, .blockAcademy h3{
-		font-size:7vw;
-	}
-	.blockHistory p,.blockMisc p, .blockAcademy p{
-		font-size:3.7vw;
-	}
-	.breadcrumb{
-		display: none;
-	}
+    }
+    .newsblockContainer{
+        margin-left:5.4vw;
+        height:322vw;
+    }
+    .blockA{
+        width:98%;
+        height:62vw;
+    }
+    .blockB{
+        width:98%;
+        height:66vw;
+        margin-top:1.5vw;
+        background-size:100% 180%;
+        background-position:0 -10vw;
+    }
+    .blockC{
+        width:98%;
+        height:58vw;
+        margin-top:1.5vw;
+    }
+    .blockD{
+        width:98%;
+        height:66vw;
+        background-size: 100% 190%;
+        background-position: 0 -36.5vw;
+        margin-top:1.5vw;
+    }
+    .blockE{
+        width:98%;
+        height:62vw;
+        margin-top: 1.5vw;
+        background-size:240% 200%;
+        background-position:-14vw 0;
+        filter: invert(1);
+    -webkit-filter:invert(1);
+    }
+    .headlineBox{
+        height:15vw;
+        left:0;
+    }
+    .GoToBtn{
+        width:25vw;
+        right:-5vw;
+    }
+    .txt{
+        padding:4.8vw;
+        font-size:4.5vw;
+    }
+    .headlineBox h3{
+        font-size: 6vw;
+        padding:0.5vw;
+    }
+    .headlineBox h4{
+        font-size: 5.6vw;
+        padding:0.5vw;
+    }
+    .dateofpublish{
+            font-size:2vw;
+            margin-left:2vw;
+    }
+    .halloffame{
+        height:180vw;
+        background-size: 290% 100%;
+        background-position: -60vw 0;
+    }
+    .title{
+        width:auto;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .main-title{
+        font-size:6vw;
+    }
+    .titleSurname{
+        font-size:14vw;
+        width:auto;
+    }
+    .titleWname{
+        margin-top:0.7vw;
+        font-size:4vw;
+        font-family:  montserrat;
+    }
+    .logoboxContainer{
+        height:auto;
+        width:100%;
+        display: table-cell;
+    }
+    .logobox{
+        height:30vw;
+        width:20vw;
+        margin-left: 15vw;
+        margin-right:15vw;
+        margin-top:12vw;
+        color:white;
+        float:left;
+    }
+    .image1{
+        width:19vw;
+        height:19vw;
+    }
+    .image2{
+        width:19vw;
+        height:19vw;
+    }
+    .image3{
+        width:19vw;
+        height:19vw;
+    }
+    .image4{
+        width:19vw;
+        height:19vw;
+    }
+    .logobox h5{
+        font-size: 3.7vw;
+        width:auto;
+        font-variant: small-caps;
+        font-family: latoregular;
+        font-weight: bold; 
+        margin-top:0.75vw;
+    }
+    .counter-value {
+        font-family: montserrat;
+        font-size:9vw;
+        margin-top:1vw;
+    }
+    .BtnHallOfFame{
+        display: table; 
+        background-color:#FFFFFF;
+        padding:4vw 7vw;
+        margin-top:15vw;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: raleway;
+        font-weight: bold;
+        color:#000000;
+        font-size:4.5vw;
+        font-variant: small-caps;
+        transition:ease-in-out 0.7s;
+    }
+    .boxTrophy{
+        height: 60vw;
+    }
+    .h2{
+        font-size:9vw;
+        line-height: normal;
+        margin-top: 1vw;
+    }
+    .inner{
+        width:100%;
+        margin-left: 0;
+        
+    }
+    .trophies{
+        width:80%;
+        margin:auto;
+        height:20vw;
+        margin-top:4vw;
+    }
+    .trophies h5{
+        font-size:3vw;
+    }
+    .trophies p{
+        font-size:5vw;
+    }
+    .trophy1, .trophy2, .trophy3, .trophy4, .trophy5, .trophy6, .trophy7, .trophy8{
+        height:20vw;
+        width:20vw;
+    }
+    /*================CLUB - MEDIA QUERY========================================*/
+    .container{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        height:auto;
+        margin-top:53px;
+    }
+    
+    .introimage{
+        height:58vw;
+    }
+    .introimage h2{
+        font-size:24vw;
+    }
+    .blockHistory{
+        height:86vw;
+    }
+    .blockMisc{
+        height:73vw;
+    }
+    .blockAcademy{
+        height:65vw;        
+    }
+    .clubImage{
+    height:73vw;
+    }
+    .has-slider, .blockTextRacism, .blockText, .blockImage, .blockImageRacism{
+        width:100%;
+    }
+    .blockHistory h3,.blockMisc h3, .blockAcademy h3{
+        font-size:7vw;
+    }
+    .blockHistory p,.blockMisc p, .blockAcademy p{
+        font-size:3.7vw;
+    }
+    .breadcrumb{
+        display: none;
+    }
 
-	/*==================================TEAM MEDIA QUERY =======================*/
+    /*==================================TEAM MEDIA QUERY =======================*/
 
-	.teamcontainer{
-		margin-top:53px;
-		width:100%;
-		height:430vw;
-	}
-	.alternatives{
-		height: 52.5vw;
-	}
-	.goalkeepers, .defenders, .midfelders, .strikers{
-		height:26.25vw;
-	}
-	.quotebox{
-		height:34vw;
-	}
-	.flag{
-		margin-left:-2.5vw;
-		transition: none;
-	}
+    .teamcontainer{
+        margin-top:53px;
+        width:100%;
+        height:430vw;
+    }
+    .alternatives{
+        height: 52.5vw;
+    }
+    .goalkeepers, .defenders, .midfelders, .strikers{
+        height:26.25vw;
+    }
+    .quotebox{
+        height:34vw;
+    }
+    .flag{
+        margin-left:-2.5vw;
+        transition: none;
+    }
 
-	.teamslider{
-		height:64vw;
-		width:95%;
-	}
-	.teamplayers{
-		height:100%;
-	}
+    .teamslider{
+        height:64vw;
+        width:95%;
+    }
+    .teamplayers{
+        height:100%;
+    }
 
-	.goalkeeperbox, .defenderbox, .midfelderbox, .strikerbox{
-		height:80vw;
-	}
-	.imagebox{
+    .goalkeeperbox, .defenderbox, .midfelderbox, .strikerbox{
+        height:80vw;
+    }
+    .imagebox{
 
-	height:49vw;
-	width:49vw;
+    height:49vw;
+    width:49vw;
 
-	}
-	.namebox{
-	height:14.8vw;
-	border-top:#FFAE00 0.9vw solid;
-	}
+    }
+    .namebox{
+    height:14.8vw;
+    border-top:#FFAE00 0.9vw solid;
+    }
 
-.number {
+    .number {
 
-  font-size:11vw;
-  padding:4.7vw 4.2vw;
-  margin-left:0vw;
-}
+      font-size:11vw;
+      padding:4.7vw 4.2vw;
+      margin-left:0vw;
+    }
 
-
-
-	.name{
-	color:white;
-	width:40%;
-	height:5.6vw;
-	font-size:3vw;
-	padding:2.5vw 6vw;
-	line-height: 4vw;
-	}
-	.box-header{
-		height:16vw;
-	}
-	.box-header h2{
-		font-size: 7vw;
-	}
-	.flag{
-		width:16vw;
-		height:10vw;
-		position: absolute;
-		transform: skewX(-20deg);
-		overflow: hidden;
-		transition: ease-in-out 0.55s;
-	}
-	.flag img{
-		width:100%;
-		margin-left:12.5%;
-		transform: skewX(20deg);
-	}
+    .name{
+    color:white;
+    width:40%;
+    height:5.6vw;
+    font-size:3vw;
+    padding:2.5vw 6vw;
+    line-height: 4vw;
+    }
+    .box-header{
+        height:16vw;
+    }
+    .box-header h2{
+        font-size: 7vw;
+    }
+    .flag{
+        width:16vw;
+        height:10vw;
+        position: absolute;
+        transform: skewX(-20deg);
+        overflow: hidden;
+        transition: ease-in-out 0.55s;
+    }
+    .flag img{
+        width:100%;
+        margin-left:12.5%;
+        transform: skewX(20deg);
+    }
+    /*==================HOF - MEDIA QUERY===========================*/
+    .HOFcontainer{
+        margin-top:53px;
+        width:100%;
+        height: 500vw;
+    }
+    .headerHOF h2{
+    	font-size:7vw;
+        line-height: normal;
+        margin-top: 1vw;
+    }
 
 }
 @media only screen and (min-width: 680px) and (max-width: 767px){
-	.headline{
-		font-size: 27px;
-		width:90vw;
-		margin-top:39vw;
-	}
-	.undertext{
-		font-size: 2.5vw;
-	}
-	.yttreSSH{
-		height:48vw;
-	}
-	.inreSSH{
-		height:48vw;
-		}
-	img{
-		width:100vw;
-		height:50vw;
-	}
-	.trophies p{
-		margin-top:6vw;
-	}
+    .headline{
+        font-size: 27px;
+        width:90vw;
+        margin-top:39vw;
+    }
+    .undertext{
+        font-size: 2.5vw;
+    }
+    .yttreSSH{
+        height:48vw;
+    }
+    .inreSSH{
+        height:48vw;
+        }
+    img{
+        width:100vw;
+        height:50vw;
+    }
+    .trophies p{
+        margin-top:6vw;
+    }
 
 }
 @media only screen and (min-width: 500px) and (max-width: 679px){
-	.headline{
-		font-size: 5vw;
-		width:94vw;
-		margin-top:39vw;
-	}
-	.undertext{
-		font-size: 2.3vw;
-	}
-	.yttreSSH{
-		height:48vw;
-	}
-	.inreSSH{
-		height:48vw;
-	}
-	img{
-	width:100vw;
-	height:50vw;
-	}
-	.introimage h2{
-		top:17vw;
-	}
+    .headline{
+        font-size: 5vw;
+        width:94vw;
+        margin-top:39vw;
+    }
+    .undertext{
+        font-size: 2.3vw;
+    }
+    .yttreSSH{
+        height:48vw;
+    }
+    .inreSSH{
+        height:48vw;
+    }
+    img{
+    width:100vw;
+    height:50vw;
+    }
+    .introimage h2{
+        top:17vw;
+    }
 }
 @media only screen and (min-width: 301px) and (max-width: 650px){
-	.teamcontainer{
-		height:590vw;
-	}
-	.alternatives{
-		height: 210vw;
-	}
-	.goalkeepers, .defenders, .midfelders, .strikers{
-		height:52.5vw;
-		width:100%;
-	}
-	.texto h3{
+    .teamcontainer{
+        height:590vw;
+    }
+    .alternatives{
+        height: 210vw;
+    }
+    .goalkeepers, .defenders, .midfelders, .strikers{
+        height:52.5vw;
+        width:100%;
+    }
+    .texto h3{
 
-	font-size: 9vw;
-	}
+    font-size: 9vw;
+    }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 499px){
-	.headline{
-		font-size: 5vw;
-		width:94vw;
-		margin-top:87vw;
-	}
-	.undertext{
-	font-size: 2.5vw;
-	}
-	.yttreSSH{
-		height:90vw;
-	}
-	.inreSSH{
-		height:90vw;
-	}
-	.next, .prev{
-	transform: translateY(-100%);
-	}
-	.introimage h2{
-		top:26vw;
-	}
+    .headline{
+        font-size: 5vw;
+        width:94vw;
+        margin-top:87vw;
+    }
+    .undertext{
+    font-size: 2.5vw;
+    }
+    .yttreSSH{
+        height:90vw;
+    }
+    .inreSSH{
+        height:90vw;
+    }
+    .next, .prev{
+    transform: translateY(-100%);
+    }
+    .introimage h2{
+        top:26vw;
+    }
 
 
 
 }
 @media screen and (min-width: 768px) and (max-width: 1199px)
 {
-	ul.topnav{
-		display: none;
-	}
-	.Main-Header{
-		height:auto;
-		margin-top: 1.6vw;
-	}
-	.yttreSSH{
-		margin-top:11vw;
-		height:50vw;
-	}
-	.headline{
-		background-color: rgba(0,0,0,0.65);
-		font-size:5vw;
-		height:30vw;
-		margin-top:30vw;
-		width:76vw;
-	}
-	.sliderLine{
-		width:150px;
-	}
-	.next, .prev{
-		transform: translateY(-70%);
-	}
-	.undertext{
-		font-size:2vw;
-	}
-	.header h2{
-		font-size:9vw;
-		line-height: normal;
-		margin-top: 1vw;
-	}
-	article{
-		width:100%;
-		margin-left: 0;
-		height:125vw;
-	}
-	.newsblockContainer{
-		height:100vw;
-	}
-	.blockA{
-		height:35vw;
-	}
-	.blockB{
-		height:45vw;
-	}
-	.blockC{
-		height:35vw;
-	}
-	.blockD{
-		height:52vw;
-	}
-	.blockE{
-		height:26vw;
-	}
-	.halloffame{
-		height:63vw;
-		background-size:100% 100%;
-	}
-	.logoboxContainer{
-		height:23vw;
-		width:auto;	
-		margin:auto;
-		margin-top:4vw;
-		display: flex;
-	}
-	.logobox{
-		height:30vw;
-		width:20vw;
-		margin-left:5vw;
-		margin-right:5vw;
-		color:white;
-		float:left;
-	}
-	.image1{
-		width:12vw;
-		height:12vw;
-	}
-	.image2{
-		width:12vw;
-		height:12vw;
-	}
-	.image3{
-		width:12vw;
-		height:12vw;
-	}
-	.image4{
-		width:12vw;
-		height:12vw;
-	}
-	.logobox h5{
-		font-size: 2.4vw;
-		width:auto;
-		font-variant: small-caps;
-		font-family: latoregular;
-		font-weight: bold; 
-		margin-top:0.75vw;
-	}
-	.counter-value {
-		font-family: montserrat;
-		font-size:5vw;
-		margin-top:0.75vw;
-	}
-	.BtnHallOfFame{
-		display: table;	
-		background-color:#FFFFFF;
-		padding:2vw 2vw;
-		margin-left:auto;
-		margin-right: auto;
-		font-size:2.5vw;
-		font-variant: small-caps;
-		transition:ease-in-out 0.7s;
-	}
-	.boxTrophy{
-		height: 60vw;
-	}
-	.h2{
-		font-size:9vw;
-		line-height: normal;
-		margin-top: 1vw;
-	}
-	
-	.header{
-		height: 17vw;
-	}
-	.inner{
-		width:100%;
-		margin-left: 0;
-		
-	}
-	.trophies{
-		width:80%;
-		margin:auto;
-		height:20vw;
-		margin-top:10vw; 
-	}
-	.trophies h5{
-		font-size:2.5vw;
-	}
-	.trophies p{
-		font-size:5vw;
-		margin-top:4vw;
-	}
-	.trophy1, .trophy2, .trophy3, .trophy4, .trophy5, .trophy6, .trophy7, .trophy8{
-		height:14vw;
-		width:14vw;
-	}
-	/*================CLUB - MEDIA QUERY========================================*/
-	.container{
-		width:100%;
-		margin-left: 0;
-		margin-right: 0;
-		height:auto;
-		margin-top:11vw;
-	}
-	.breadcrumb{
-		height:6vw;
-			}
-	.breadcrumb li{
-		padding:1vw;
-		font-size:1.5vw;
-		margin-top:1.5vw;
-	}
-	.introimage{
+    ul.topnav{
+        display: none;
+    }
+    .Main-Header{
+        height:auto;
+        margin-top: 1.6vw;
+    }
+    .yttreSSH{
+        margin-top:11vw;
+        height:50vw;
+    }
+    .headline{
+        background-color: rgba(0,0,0,0.65);
+        font-size:5vw;
+        height:30vw;
+        margin-top:30vw;
+        width:76vw;
+    }
+    .sliderLine{
+        width:150px;
+    }
+    .next, .prev{
+        transform: translateY(-70%);
+    }
+    .undertext{
+        font-size:2vw;
+    }
+    .header h2{
+        font-size:7vw;
+        line-height: normal;
+        margin-top: 1vw;
+    }
+    .headerHOF h2{
+    	font-size:7vw;
+        line-height: normal;
+        margin-top: 1vw;
+    }
+    article{
+        width:100%;
+        margin-left: 0;
+        height:125vw;
+    }
+    .newsblockContainer{
+        height:100vw;
+    }
+    .blockA{
+        height:35vw;
+    }
+    .blockB{
+        height:45vw;
+    }
+    .blockC{
+        height:35vw;
+    }
+    .blockD{
+        height:52vw;
+    }
+    .blockE{
+        height:26vw;
+    }
+    .halloffame{
+        height:63vw;
+        background-size:100% 100%;
+    }
+    .logoboxContainer{
+        height:23vw;
+        width:auto; 
+        margin:auto;
+        margin-top:4vw;
+        display: flex;
+    }
+    .logobox{
+        height:30vw;
+        width:20vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        color:white;
+        float:left;
+    }
+    .image1{
+        width:12vw;
+        height:12vw;
+    }
+    .image2{
+        width:12vw;
+        height:12vw;
+    }
+    .image3{
+        width:12vw;
+        height:12vw;
+    }
+    .image4{
+        width:12vw;
+        height:12vw;
+    }
+    .logobox h5{
+        font-size: 2.4vw;
+        width:auto;
+        font-variant: small-caps;
+        font-family: latoregular;
+        font-weight: bold; 
+        margin-top:0.75vw;
+    }
+    .counter-value {
+        font-family: montserrat;
+        font-size:5vw;
+        margin-top:0.75vw;
+    }
+    .BtnHallOfFame{
+        display: table; 
+        background-color:#FFFFFF;
+        padding:2vw 2vw;
+        margin-left:auto;
+        margin-right: auto;
+        font-size:2.5vw;
+        font-variant: small-caps;
+        transition:ease-in-out 0.7s;
+    }
+    .boxTrophy{
+        height: 60vw;
+    }
+    .h2{
+        font-size:7vw;
+        line-height: normal;
+        margin-top: 1vw;
+    }
+    
+    .header{
+        height: 17vw;
+    }
+    .inner{
+        width:100%;
+        margin-left: 0;
+        
+    }
+    .trophies{
+        width:80%;
+        margin:auto;
+        height:20vw;
+        margin-top:10vw; 
+    }
+    .trophies h5{
+        font-size:2.5vw;
+    }
+    .trophies p{
+        font-size:5vw;
+        margin-top:4vw;
+    }
+    .trophy1, .trophy2, .trophy3, .trophy4, .trophy5, .trophy6, .trophy7, .trophy8{
+        height:14vw;
+        width:14vw;
+    }
+    /*================CLUB - MEDIA QUERY========================================*/
+    .container{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        height:auto;
+        margin-top:11vw;
+    }
+    .breadcrumb{
+        height:6vw;
+            }
+    .breadcrumb li{
+        padding:1vw;
+        font-size:1.5vw;
+        margin-top:1.5vw;
+    }
+    .introimage{
 
-	height:48vw;
-	}
+    height:48vw;
+    }
 
-	.introimage h2{
-		font-size:20vw;
-		top:24vw;
+    .introimage h2{
+        font-size:20vw;
+        top:24vw;
 
-	}
-	.blockHistory{
-		height:45vw;
-	}
+    }
+    .blockHistory{
+        height:45vw;
+    }
 
-	.blockMisc{
-		height:43vw;
-	}
-	.blockAcademy{
-		height:38vw;		
-	}
-	
-	.blockHistory h3,.blockMisc h3, .blockAcademy h3{
-		font-size:5vw;
-	}
-	.blockHistory p,.blockMisc p, .blockAcademy p{
-		font-size:2.2vw;
-	}
-	/*=======TEAM====*/
-	.flag{
-		margin-left:-2.5vw;
-		transition: none;
-	}
+    .blockMisc{
+        height:43vw;
+    }
+    .blockAcademy{
+        height:38vw;        
+    }
+    
+    .blockHistory h3,.blockMisc h3, .blockAcademy h3{
+        font-size:5vw;
+    }
+    .blockHistory p,.blockMisc p, .blockAcademy p{
+        font-size:2.2vw;
+    }
+    /*=======TEAM====*/
+    .flag{
+        margin-left:-2.5vw;
+        transition: none;
+    }
 
 
 }
 
 @media screen and (width: 768px){
-	.Main-Header{
-		height:auto;
-		margin-top: 6px;
-	}
+    .Main-Header{
+        height:auto;
+        margin-top: 6px;
+    }
 }
 
 
