@@ -455,7 +455,7 @@ img
 	}
 .nextGame h5{
 	font-family: open_sans_condensedbold;
-	font-size: 3.3vw;
+	font-size: 4.8vw;
 	font-variant: small-caps;
 	margin-top: 8vw;
 	margin-left:2vw;
@@ -473,13 +473,13 @@ img
 .team1{
 height:7.66vw;
 width:4.76vw;
-margin-top:7vw;
+margin-top:8vw;
 float:left;
 }
 .team2{
 height:7.66vw;
 width:4.76vw;
-margin-top:7vw;
+margin-top:8vw;
 float: left;
 }
 
@@ -1295,6 +1295,232 @@ ul.breadcrumb li+li:before {
   float:left;
 }
 /*==================TEAM===================*/
+.teamcontainer{
+	background-color:white;
+	width:75%;
+	height:250vw;
+	margin:auto;
+	margin-top:11vw;
+	-khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+	-ms-user-select:none;
+    user-select: none;
+	overflow: hidden;
+}
+.alternatives{
+	width: 100%;
+	height:42vw;
+	background-color: #FFAE00;
+
+}
+.goalkeepers, .defenders, .midfelders, .strikers{
+	width:50%;
+	height:21vw;
+	float:left;
+	overflow: hidden;
+	position: relative;
+		transition: ease-in-out 0.55s;
+}
+.goalkeepers img{
+	width:100%;
+	height:120%;
+	margin-top:-3.5vw;
+	transition: ease-in-out 0.5s;}
+.defenders img{
+	width:100%;
+	height:100%;
+	transition: ease-in-out 0.5s;
+	position: relative;
+}
+.midfelders img{
+	width:100%;
+	height:100%;
+	transition: ease-in-out 0.5s;
+	position: relative;
+}
+.strikers img{
+	width:100%;
+	height:115%;
+	transition: ease-in-out 0.5s;
+	position: relative;
+}
+.texto h3{
+	margin-top:0;
+	margin-left:0;
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: 100;
+	font-size: 2.9vw;
+	font-family: montserratlight;
+}
+.texto {
+  width: auto;
+  height: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 0.1vw;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+.texto:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 0.15vw;
+    width: 0px;
+    background: transparent;
+    transition: width 0.55s ease, background-color 0.55s ease;
+}
+@media (min-width: 1200px){
+
+	.goalkeepers:hover img, .defenders:hover img, .midfelders:hover img, .strikers:hover img{
+	  -webkit-filter: grayscale(50%) blur(5px);
+	  filter: grayscale(15%) blur(5px);
+	  transition: 0.5s ease-in-out;
+	  transform: scale(1.05);
+	}
+	.imagebox:hover > .flag{
+	margin-left:-2.5vw;
+	}
+
+	.goalkeepers:hover >.texto:after{
+    width: 100%;
+    background: white;
+	}	
+
+	.defenders:hover > .texto:after{
+	    width: 100%;
+	    background: white;
+	}
+
+	.midfelders:hover > .texto:after{
+	    width: 100%;
+	    background: white;
+	}
+
+	.strikers:hover > .texto:after{
+	    width: 100%;
+	    background: white;
+	}
+
+}
+
+
+.quotebox{
+	width:100%;
+	height:26vw;
+	background-color: white;
+	border-bottom: 0.3vw black solid;
+	border-top: 0.3vw black solid;
+
+}
+.goalkeeperbox{
+	height:30vw;
+	width:100%;
+	margin-top:3vw;
+}
+.defenderbox{
+	height:30vw;
+	width:100%;
+	margin-top:3vw;
+}
+.midfelderbox{
+	height:30vw;
+	width:100%;
+	margin-top:3vw;
+}
+.strikerbox{
+	height:30vw;
+	width:100%;
+	margin-top:3vw;
+}
+.box-header{
+	width:100%;
+	height:6vw;
+}
+.box-header h2{
+	margin-top:0;
+	margin-left: 4vw;
+	height:auto;
+	color:black;
+	font-size:3vw;
+}
+.teamslider{
+	height:21vw;
+	width:95%;
+	margin-left:2.5%;
+	display: flex;
+	background-color: white;
+}
+.teamplayer{
+	width:25%;
+	height:100%;
+	background-color:white;
+	overflow: hidden;
+	text-align: center;
+	border-left:0.35vw white solid;
+	border-right:0.35vw white solid;
+}
+.imagebox{
+	width:100%;
+	height:17.1vw;
+	background-color:#FcFcFc;
+	overflow: hidden;
+	position: relative;
+}
+.teamplayer img{
+	width:65%;
+	margin:auto;
+	height: 100%;
+}
+.flag{
+	width:8vw;
+	height:5vw;
+	margin-left:-8vw;
+	position: absolute;
+	transform: skewX(-20deg);
+	overflow: hidden;
+	transition: ease-in-out 0.55s;
+}
+.flag img{
+	width:100%;
+	margin-left:12.5%;
+	transform: skewX(20deg);
+}
+.namebox{
+	height:5.6vw;
+	width:100%;
+	background-color:black;
+	text-align: center;
+	line-height: 6vw;
+	display: flex;
+	font-family: montserratlight;
+	color: white;
+	border-top:#FFAE00 0.3vw solid;
+}
+.number{
+	width:5.6vw;
+	height:5.6vw;
+	font-size:3.5vw;
+	vertical-align: middle;
+}
+.name{
+	color:white;
+	width:40%;
+	height:5.6vw;
+	font-size:1.6vw;
+	line-height: 2.3vw;
+	text-align: left;
+	margin-top:0.5vw;
+	margin-left:1vw;
+}
+
 /*================MOBILE===================*/
 
 
@@ -1335,10 +1561,10 @@ header{
 	margin-left: 10px;
 	color:#FFAE00;
 	display: inline-block;
-	-webkit-transform:scale(1.25,1); /* Safari and Chrome */
-    -moz-transform:scale(1.25,1); /* Firefox */
-    -o-transform:scale(1.25,1); /* Opera */
-	transform:scale(1.25,1); /* W3C */
+	-webkit-transform:scale(1.25,1);
+    -moz-transform:scale(1.25,1);  
+    -o-transform:scale(1.25,1); 
+	transform:scale(1.25,1); 
 	}
 nav{
 	display: none;
@@ -1472,7 +1698,7 @@ ul.topnav.responsive li{
 		float:left;
 		width:50%;
 		height: 25vw;
-    	background-image:url(gallery.jpg); /* For browsers that do not support gradients */
+    	background-image:url(gallery.jpg);
   		background-size: 100% 140%;
 		background-repeat: no-repeat;
 	}
@@ -1757,7 +1983,79 @@ ul.topnav.responsive li{
 	.breadcrumb{
 		display: none;
 	}
-	
+
+	/*==================================TEAM MEDIA QUERY =======================*/
+
+	.teamcontainer{
+		margin-top:53px;
+		width:100%;
+		height:450vw;
+	}
+	.alternatives{
+		height: 52.5vw;
+	}
+	.goalkeepers, .defenders, .midfelders, .strikers{
+		height:26.25vw;
+	}
+	.flag{
+		margin-left:-2.5vw;
+		transition: none;
+	}
+
+	.teamslider{
+		height:64vw;
+		width:95%;
+	}
+	.teamplayers{
+		height:100%;
+	}
+
+	.goalkeeperbox, .defenderbox, .midfelderbox, .strikerbox{
+		height:80vw;
+	}
+	.imagebox{
+
+	height:49vw;
+	width:49vw;
+
+	}
+	.namebox{
+	height:14.8vw;
+	border-top:#FFAE00 0.9vw solid;
+	}
+	.number{
+	width:5.6vw;
+	height:5.6vw;
+	font-size:10vw;
+	padding: 4.2vw 4vw;
+	}
+	.name{
+	color:white;
+	width:40%;
+	height:5.6vw;
+	font-size:3vw;
+	padding:2.5vw 10vw;
+	line-height: 4vw;
+	}
+	.box-header{
+		height:16vw;
+	}
+	.box-header h2{
+		font-size: 7vw;
+	}
+	.flag{
+		width:16vw;
+		height:10vw;
+		position: absolute;
+		transform: skewX(-20deg);
+		overflow: hidden;
+		transition: ease-in-out 0.55s;
+	}
+	.flag img{
+		width:100%;
+		margin-left:12.5%;
+		transform: skewX(20deg);
+	}
 
 }
 @media only screen and (min-width: 680px) and (max-width: 767px){
@@ -1782,6 +2080,7 @@ ul.topnav.responsive li{
 	.trophies p{
 		margin-top:6vw;
 	}
+
 }
 @media only screen and (min-width: 500px) and (max-width: 679px){
 	.headline{
@@ -1806,6 +2105,23 @@ ul.topnav.responsive li{
 		top:17vw;
 	}
 }
+@media only screen and (min-width: 301px) and (max-width: 650px){
+	.teamcontainer{
+		height:580vw;
+	}
+	.alternatives{
+		height: 210vw;
+	}
+	.goalkeepers, .defenders, .midfelders, .strikers{
+		height:52.5vw;
+		width:100%;
+	}
+	.texto h3{
+
+	font-size: 9vw;
+	}
+}
+
 @media only screen and (min-width: 300px) and (max-width: 499px){
 	.headline{
 		font-size: 5vw;
@@ -1828,8 +2144,10 @@ ul.topnav.responsive li{
 		top:26vw;
 	}
 
+
+
 }
-@media screen and (min-width: 768px) and (max-width: 1200px)
+@media screen and (min-width: 768px) and (max-width: 1199px)
 {
 	ul.topnav{
 		display: none;
@@ -2021,6 +2339,12 @@ ul.topnav.responsive li{
 	.blockHistory p,.blockMisc p, .blockAcademy p{
 		font-size:2.2vw;
 	}
+	/*=======TEAM====*/
+	.flag{
+		margin-left:-2.5vw;
+		transition: none;
+	}
+
 
 }
 
