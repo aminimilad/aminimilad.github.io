@@ -62,7 +62,7 @@ html{
 		position:absolute;
 		left:0;
 		right:0;
-		background:-color:black;
+		background-color:black;
 	}
 .headerbox{
 		z-index:1;
