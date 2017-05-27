@@ -2262,10 +2262,10 @@ ul.topnav.responsive li{
         width:100%;
     }
     .blockHistory h3,.blockMisc h3, .blockAcademy h3{
-        font-size:6vw;
+        font-size:7vw;
     }
     .blockHistory p,.blockMisc p, .blockAcademy p{
-        font-size:2vw;
+        font-size:3vw;
     }
     .breadcrumb{
         display: none;
