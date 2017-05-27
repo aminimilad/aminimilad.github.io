@@ -1762,6 +1762,14 @@ transform:none;
 	text-align: center;
 	font-family:montserrat;
 
+
+}
+
+
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
 }
 .infobox h5{
 	font-size: 2vw;
@@ -1769,11 +1777,10 @@ transform:none;
 
 }
 .infobox{
-	width: 25%;
-    height: 100%;
-    display: inline-block;
-    vertical-align: middle;
-    padding-top: 12.5%;
+	width:25%;
+    height:100%;
+    display: table;
+
 }
 .infobox img{
 	width:7vw;
