@@ -502,20 +502,37 @@
 }
 </script>
 
-<script>
-	$(".goalkeepers").click(function() {
-    $("html,body").animate({
-        scrollTop: $(".goalkeeperbox").offset().top - 100},
-        "slow");
-	});
-	
-</script>
+
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="headerscript.js"></script>
+
+<script>
+	$(".goalkeepers").click(function() {
+    $("html,body").animate({
+        scrollTop: $(".goalkeeperbox").offset().top - 100},
+        "slow");
+	});
+	$(".defenders").click(function() {
+    $("html,body").animate({
+        scrollTop: $(".defenderbox").offset().top - 100},
+        "slow");
+	});
+	$(".midfelders").click(function() {
+    $("html,body").animate({
+        scrollTop: $(".midfelderbox").offset().top - 100},
+        "slow");
+	});
+	$(".strikers").click(function() {
+    $("html,body").animate({
+        scrollTop: $(".strikerbox").offset().top - 100},
+        "slow");
+	});
+</script>
+
 
 <script>
     $('.teamslider').slick({
