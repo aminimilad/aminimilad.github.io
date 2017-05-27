@@ -1311,7 +1311,7 @@ ul.breadcrumb li+li:before {
 .alternatives{
     width: 100%;
     height:42vw;
-    background-color: #FFAE00;
+    background-color: black;
     clear:left;
     
 }
@@ -1390,7 +1390,10 @@ ul.breadcrumb li+li:before {
     .imagebox:hover > .flag{
     margin-left:-2.5vw;
     }
-
+    .goalkeepers:hover > .texto:after{
+        width: 100%;
+        background: white;
+    }
     
     .defenders:hover > .texto:after{
         width: 100%;
