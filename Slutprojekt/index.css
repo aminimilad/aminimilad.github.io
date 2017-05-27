@@ -2249,7 +2249,7 @@ ul.topnav.responsive li{
         font-size:24vw;
     }
     .blockHistory{
-        height:86vw;
+        height:73vw;
     }
     .blockMisc{
         height:73vw;
@@ -2264,10 +2264,10 @@ ul.topnav.responsive li{
         width:100%;
     }
     .blockHistory h3,.blockMisc h3, .blockAcademy h3{
-        font-size:7vw;
+        font-size:3vw;
     }
     .blockHistory p,.blockMisc p, .blockAcademy p{
-        font-size:3vw;
+        font-size:1vw;
     }
     .breadcrumb{
         display: none;
@@ -2480,7 +2480,7 @@ ul.topnav.responsive li{
     font-size: 9vw;
     }
     .blockhistory p{
-    	font-size:2vw;
+    	font-size:1vw;
     }
 
   }
@@ -2720,7 +2720,7 @@ ul.topnav.responsive li{
 @media screen and (width: 768px){
     .Main-Header{
         height:auto;
-        margin-top: 6px;
+        margin-top: 13px;
     }
 }
 
