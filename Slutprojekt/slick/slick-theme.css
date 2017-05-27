@@ -41,6 +41,17 @@
     outline: none;
     background: transparent;
 }
+
+@media screen and (max-width: 1000){
+    .slick-prev,
+.slick-next
+{
+
+    width: 20px;
+    height: 20px;
+  
+}
+}
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,

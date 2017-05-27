@@ -723,7 +723,7 @@ h4{
 .txt{
 	font-size: 1.25vw;
 	font-family: latoregular;
-	font-variant-caps: small-caps;
+	font-variant: small-caps;
 	font-weight: bold;
 	padding:2.65vw;
 	transform: skewX(20deg);
