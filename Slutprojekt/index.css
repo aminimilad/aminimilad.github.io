@@ -1212,7 +1212,6 @@ ul.breadcrumb li+li:before {
 	padding: 1vw 2vw;
 }
 .has-slider p{
-	font-size:1.2vw;
 	padding:0vw 1vw;
 }
 .has-slider{
@@ -2267,7 +2266,7 @@ ul.topnav.responsive li{
         font-size:3vw;
     }
     .blockHistory p,.blockMisc p, .blockAcademy p{
-        font-size:2.5vw;
+        font-size:2vw;
     }
     .breadcrumb{
         display: none;
@@ -2703,7 +2702,7 @@ ul.topnav.responsive li{
     }
     
     .blockHistory h3,.blockMisc h3, .blockAcademy h3{
-        font-size:5vw;
+        font-size:3vw;
     }
     .blockHistory p,.blockMisc p, .blockAcademy p{
         font-size:2vw;
