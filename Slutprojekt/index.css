@@ -9,13 +9,7 @@
   background-color: rgba(0,0,0,0);
 	}
 html{
-	background-image:url(trophys.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-		-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
 
 }
 @font-face {
