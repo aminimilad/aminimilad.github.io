@@ -58,7 +58,7 @@ html{
 #storbox{
 		top:0;
 		width:100%;
-		height:100%;
+		height:auto;
 		position:absolute;
 		left:0;
 		right:0;
