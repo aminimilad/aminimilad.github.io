@@ -1206,12 +1206,11 @@ ul.breadcrumb li+li:before {
   }
 }
 .has-slider h3{
-	font-size:3vw;
-	
 	text-align: right;
 	padding: 1vw 2vw;
 }
 .has-slider p{
+	font-size:1.2vw;
 	padding:0vw 1vw;
 }
 .has-slider{
@@ -2478,9 +2477,7 @@ ul.topnav.responsive li{
 
     font-size: 9vw;
     }
-    .blockhistory p{
-    	font-size:1vw;
-    }
+    
 
   }
 
@@ -2701,12 +2698,7 @@ ul.topnav.responsive li{
         height:38vw;        
     }
     
-    .blockHistory h3,.blockMisc h3, .blockAcademy h3{
-        font-size:3vw;
-    }
-    .blockHistory p,.blockMisc p, .blockAcademy p{
-        font-size:2vw;
-    }
+    
     /*=======TEAM====*/
     .flag{
         margin-left:-2.5vw;
