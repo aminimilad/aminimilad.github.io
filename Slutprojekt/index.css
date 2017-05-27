@@ -2250,10 +2250,10 @@ ul.topnav.responsive li{
         height:73vw;
     }
     .blockMisc{
-        height:73vw;
+        height:auto;
     }
     .blockAcademy{
-        height:65vw;        
+        height:auto;        
     }
     .clubImage{
     height:73vw;
