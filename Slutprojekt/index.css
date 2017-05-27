@@ -6,7 +6,6 @@
 		-moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: rgba(0,0,0,0);
 	}
 html{
 	background-image:url(trophys.jpg);
@@ -62,7 +61,6 @@ html{
 		position:absolute;
 		left:0;
 		right:0;
-		background-color:red;
 	}
 .headerbox{
 		z-index:1;
@@ -908,6 +906,7 @@ width:60%;
     -webkit-user-select: none;
 	-ms-user-select:none;
     user-select: none;
+    background-color:#dab152;
 }
 .inner
 {
@@ -925,7 +924,7 @@ width:60%;
 	font-size:2.7vw;
 	margin-top:2vw;
 	border-bottom:0.4vw;
-	border-bottom-color:#FFAE00;
+	border-bottom-color:black;
 	border-bottom-style:solid;
 	float:left;
 }
@@ -1020,6 +1019,7 @@ footer{
     border-top-style: solid;
     border-top-width: 0.5vw;
     border-top-color:#FFAE00;
+    position: relative;
 }
 .juventuslogo2{
 	background-image:url(jv.png);
@@ -1027,7 +1027,11 @@ footer{
 	background-size:100% 100%;
 	height:10vw;
 	width:6.149vw;
-	margin-top:-5vw;
+	position:absolute;/*för att finnas längst upp*/
+	top:-5vw;
+	bottom:0;
+	left:0;
+	right:0;
 	margin-left:auto;
 	margin-right: auto;
 }
