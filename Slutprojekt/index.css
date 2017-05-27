@@ -455,7 +455,7 @@ img
 	}
 .nextGame h5{
 	font-family: open_sans_condensedbold;
-	font-size: 4.8vw;
+	font-size: 4.3vw;
 	font-variant: small-caps;
 	margin-top: 8vw;
 	margin-left:2vw;
@@ -939,6 +939,7 @@ width:60%;
 	color:white;
 	display: flex;
 	position: relative;
+	background-color:rgba(0,0,0,0);
 
 }
 .trophy{
@@ -1164,10 +1165,14 @@ ul.breadcrumb li+li:before {
 .blockMisc{
 	height:22vw;
 	width:100%;
+	font-family:open_sans_condensedbold;
+	color:white;
 }
 .blockAcademy{
 	width:100%;
 	height:22vw;
+	font-family:open_sans_condensedbold;
+	color:white;
 }
 .blockText{
 	width:66.5%;
@@ -1204,41 +1209,34 @@ ul.breadcrumb li+li:before {
 }
 .has-slider h3{
 	font-size:3vw;
-	font-family:open_sans_condensedbold;
-	color:white;
+	
 	text-align: right;
 	padding: 1vw 2vw;
 }
 .has-slider p{
 	font-size:1.2vw;
-	font-family: open_sans_condensedbold;
-	color:white;
 	padding:0vw 1vw;
+}
+.has-slider{
+	font-family:open_sans_condensedbold;
+	color:white;
 }
 
 .blockTextRacism p{
 	font-size:1.2vw;
-	font-family: open_sans_condensedbold;
-	color:white;
 	padding:0vw 1vw;
 }
 .blockTextRacism h3{
 	font-size:3vw;
-	font-family: open_sans_condensedbold;
-	color:white;
 	padding: 2vw 1vw;
 }
 .blockText h3{
 	font-size:3vw;
-	font-family:open_sans_condensedbold;
-	color:white;
 	text-align: right;
 	padding: 1vw 2vw;
 }
 .blockText p{
 	font-size:1.2vw;
-	font-family: open_sans_condensedbold;
-	color:white;
 	padding:0vw 1vw;
 }
 * {
