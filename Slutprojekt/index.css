@@ -2265,11 +2265,12 @@ ul.topnav.responsive li{
         font-size:7vw;
     }
     .blockHistory p,.blockMisc p, .blockAcademy p{
-        font-size:3vw;
+        font-size:3.2vw;
     }
     .breadcrumb{
         display: none;
     }
+
 
     /*==================================TEAM MEDIA QUERY =======================*/
 
@@ -2433,6 +2434,9 @@ ul.topnav.responsive li{
     .trophies p{
         margin-top:6vw;
     }
+    .blockHistory p{
+        font-size:1.2vw;
+    }
 
 
 }
@@ -2458,7 +2462,9 @@ ul.topnav.responsive li{
     .introimage h2{
         top:17vw;
     }
-
+    .blockHistory p{
+        font-size:1.2vw;
+    }
 
     
 }
@@ -2477,7 +2483,9 @@ ul.topnav.responsive li{
 
     font-size: 9vw;
     }
-    
+    .blockHistory p{
+        font-size:1.2vw;
+    }
 
   }
 
@@ -2501,6 +2509,9 @@ ul.topnav.responsive li{
     }
     .introimage h2{
         top:26vw;
+    }
+    .blockHistory p{
+        font-size:1.2vw;
     }
 
 }
