@@ -2267,7 +2267,7 @@ ul.topnav.responsive li{
         font-size:7vw;
     }
     .blockHistory p,.blockMisc p, .blockAcademy p{
-        font-size:3.4vw;
+        font-size:3vw;
     }
     .breadcrumb{
         display: none;
@@ -2478,6 +2478,9 @@ ul.topnav.responsive li{
     .texto h3{
 
     font-size: 9vw;
+    }
+    .blockhistory p{
+    	font-size:2vw;
     }
 
   }
