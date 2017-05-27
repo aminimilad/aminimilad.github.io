@@ -1,4 +1,6 @@
- (function($) {
+
+if (window.innerWidth>1200) {
+  (function($) {
 
   /**
    * Copyright 2012, Digital Fusion
@@ -50,3 +52,6 @@ win2.scroll(function(event) {
   });
   
 });
+}
+
+ 
