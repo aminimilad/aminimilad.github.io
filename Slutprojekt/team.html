@@ -418,6 +418,56 @@
     	</div>
     </div>
 </div>
+<div class="boxTrophy">
+    <div class="inner">
+        <div class="header">
+            <div class="h2">honours</div><span class="border2"></span>
+        </div>
+            <div class="trophies">
+                <div class="trophy">
+                    <img src="copa1.png" class="trophy1">
+                    <h5>intercontinental cup</h5>
+                    <p>2</p>
+                </div>
+                <div class="trophy">
+                    <img src="copa2.png" class="trophy2">
+                    <h5>coppa italia</h5>
+                    <p>11</p>
+                </div>
+                <div class="trophy">
+                    <img src="copa3.png" class="trophy3">
+                    <h5>champions league</h5>
+                    <p>2</p>
+                </div>
+                <div class="trophy">
+                    <img src="copa4.png" class="trophy4">
+                    <h5>scudetto</h5>
+                    <p>34</p>
+                </div>
+                <div class="trophy">
+                    <img src="copa5.png" class="trophy5">
+                    <h5>italian super cup</h5>
+                    <p>7</p>
+                </div>
+                <div class="trophy">
+                    <img src="copa6.png" class="trophy6">
+                    <h5>intertoto cup</h5>
+                    <p>1</p>
+                </div>
+                <div class="trophy">
+                    <img src="copa7.png" class="trophy7">
+                    <h5>uefa europa league</h5>
+                    <p>3</p>
+                </div>
+                <div class="trophy">
+                    <img src="copa8.png" class="trophy8">
+                    <h5>uefa super cup</h5>
+                    <p>2</p>
+                </div>
+            </div>
+        
+    </div>
+</div>
 <footer>
 	<div class="juventuslogo2">
     </div>
@@ -476,10 +526,11 @@
 </script>
 
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
-	<script src="headerscript.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="headerscript.js"></script>
+
 <script>
     $('.teamslider').slick({
   dots: false,
@@ -509,6 +560,43 @@
       settings: {
         slidesToShow: 2,
         slidesToScroll:2
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+<script>
+    $('.trophies').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll:1
       }
     }
     // You can unslick at a given breakpoint now by adding:
