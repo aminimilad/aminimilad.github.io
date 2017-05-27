@@ -31,7 +31,7 @@ function handleOrientationChange(evt) {
 
 function changeWidth() {
 
-    if (window.matchMedia("(min-width: 500px)").matches) {
+    if (window.matchMedia("(min-width: 501px)").matches) {
       /* the viewport is at least 600 pixels wide */
         width = 100;
     } else {
