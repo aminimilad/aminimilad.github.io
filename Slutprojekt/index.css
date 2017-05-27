@@ -1537,7 +1537,7 @@ ul.breadcrumb li+li:before {
 .HOFcontainer{
     background-color:white;
     width:75%;
-    height:210vw;
+    height:auto;
     margin:auto;
     margin-top:11vw;
     -khtml-user-select: none;
@@ -1557,7 +1557,7 @@ ul.breadcrumb li+li:before {
 }
 .headerHOF{
 	width:100%;
-	height:12vw;
+	height:10vw;
 }
 .headerHOF h2{
     color:black;
@@ -1565,7 +1565,6 @@ ul.breadcrumb li+li:before {
     height:auto;
     width:auto;
 }
-
 /*====CDP==*/
 .accordion {
   width: 100%;
@@ -1723,8 +1722,86 @@ transform:none;
 
 }
 /*====CDP END==*/
+.legendcontainer{
+	height:auto;
+	width:100%;
+	margin-bottom: 5vw;
+}
+.overview1, .overview2, .overview3, .overview4 {
+	height:30vw;
+	width:100%;
+	background-size:cover;
+	background-position:0 0vw;
+	text-align: center;
+	display: inline-block;
+}
+.overview1 {
+	background-image:url(zidaneoverview.jpg);
+}
+.overview2 {
+	background-image:url(nedvedoverview.jpg);
+}
+.overview3 {
+	background-image:url(davidsoverview.jpg);
+}
+.overview4 {
+	background-image:url(delpierooverview.jpg);
+}
 
-    
+.overview1 h3, .overview2 h3, .overview3 h3, .overview4 h3{
+	font-family: latoregular;
+	margin-top:3vw;
+	font-size:3vw;
+}
+.info{
+	width:100%;
+	height:20vw;
+	background-color: #FFAE00;
+	margin-top:0;
+	display: flex;
+	text-align: center;
+	font-family:montserrat;
+
+}
+.infobox h5{
+	font-size: 2vw;
+	font-variant: small-caps;
+
+}
+.infobox{
+	width:25%;
+	height:100%;
+	display: inline-block;
+	margin-top:3vw;
+
+}
+.infobox img{
+	width:7vw;
+	height:7vw;
+
+}
+.infobox p{
+	font-size: 6vw;
+}
+
+.legend1{
+width:100%;
+height:auto;
+margin-top:5vw;
+}
+.legend1 p{
+	padding:0vw 2vw;
+	font-family: open_sans_condensedbold;
+	font-size:1.5vw;
+}
+.legend1 h4{
+	color:black;
+	padding:0vw 2vw;
+	font-size:2.7vw;
+}
+
+
+
 
 /*================MOBILE===================*/
 
@@ -2270,14 +2347,71 @@ ul.topnav.responsive li{
     .HOFcontainer{
         margin-top:53px;
         width:100%;
-        height: 500vw;
-    }
+            }
     .headerHOF h2{
     	font-size:7vw;
         line-height: normal;
         margin-top: 1vw;
     }
+    /**/
+    .socialmedias{
+	width:40vw;
+	height:12vw;
+}
+.blockFB
+{
+	height:9vw;
+	width:9vw;
+}
+.blockIG
+{
+	height:9vw;
+	width:9vw;
+}
+.blockTTR
+{
+	height:9vw;
+	width:9vw;
+}
 
+.overview1, .overview2, .overview3, .overview4 {
+	height:45vw;
+}
+.overview1 h3, .overview2 h3, .overview3 h3, .overview4 h3{
+	
+	font-size:6vw;
+}
+.info{
+	height:30vw;
+
+}
+.infobox h5{
+	font-size: 3vw;
+	font-variant: small-caps;
+
+}
+.infobox{
+	width:25%;
+	height:100%;
+	display: inline-block;
+	margin-top:4vw;
+
+}
+.infobox img{
+	width:12vw;
+	height:12vw;
+}
+.infobox p{
+	font-size: 8vw;
+}
+.legend1 p{
+
+	font-size:4vw;
+	}
+.legend1 h4{
+
+	font-size:7vw;
+	}
 }
 @media only screen and (min-width: 680px) and (max-width: 767px){
     .headline{
@@ -2302,6 +2436,7 @@ ul.topnav.responsive li{
         margin-top:6vw;
     }
 
+
 }
 @media only screen and (min-width: 500px) and (max-width: 679px){
     .headline{
@@ -2325,6 +2460,9 @@ ul.topnav.responsive li{
     .introimage h2{
         top:17vw;
     }
+
+
+    
 }
 @media only screen and (min-width: 301px) and (max-width: 650px){
     .teamcontainer{
@@ -2341,9 +2479,10 @@ ul.topnav.responsive li{
 
     font-size: 9vw;
     }
-}
 
-@media only screen and (min-width: 300px) and (max-width: 499px){
+  }
+
+@media only screen and (min-width: 200px) and (max-width: 499px){
     .headline{
         font-size: 5vw;
         width:94vw;
@@ -2364,8 +2503,6 @@ ul.topnav.responsive li{
     .introimage h2{
         top:26vw;
     }
-
-
 
 }
 @media screen and (min-width: 768px) and (max-width: 1199px)
@@ -2406,6 +2543,9 @@ ul.topnav.responsive li{
     	font-size:7vw;
         line-height: normal;
         margin-top: 1vw;
+    }
+    .HOFcontainer{
+        height: auto;
     }
     article{
         width:100%;
