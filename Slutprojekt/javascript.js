@@ -44,7 +44,7 @@ function changeWidth() {
 
   for (let i = 0; i <  4; i++)
    {
-    let b = document.createElement('span');
+    var b = document.createElement('span');
     b.classList.add('navbubblor');
     bubblesContainer.appendChild(b);
     bubbles.push(b);
