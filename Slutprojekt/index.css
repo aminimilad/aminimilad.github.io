@@ -1769,11 +1769,11 @@ transform:none;
 
 }
 .infobox{
-	width:25%;
-	height:100%;
-	display: inline-block;
-	margin-top:3vw;
-
+	width: 25%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 12.5%;
 }
 .infobox img{
 	width:7vw;
@@ -2388,13 +2388,6 @@ ul.topnav.responsive li{
 .infobox h5{
 	font-size: 3vw;
 	font-variant: small-caps;
-
-}
-.infobox{
-	width:25%;
-	height:100%;
-	display: inline-block;
-	margin-top:3vw;
 
 }
 .infobox img{
