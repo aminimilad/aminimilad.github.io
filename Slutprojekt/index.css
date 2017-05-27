@@ -2483,9 +2483,7 @@ ul.topnav.responsive li{
 
     font-size: 9vw;
     }
-    .blockHistory p{
-        font-size:1.2vw;
-    }
+    
 
   }
 
@@ -2511,7 +2509,7 @@ ul.topnav.responsive li{
         top:26vw;
     }
     .blockHistory p{
-        font-size:1.2vw;
+        font-size:3.2vw;
     }
 
 }
