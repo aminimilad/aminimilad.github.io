@@ -109,7 +109,16 @@ function changeWidth() {
 		
 		 switchImg();
 
+		var t = setInterval(showNext, 7000); 
 		
+		c.addEventListener('mouseover', function () 
+		{ 
+			clearInterval(t); 
+		}); 
+		
+		c.addEventListener('mouseout', function () { 
+			t = setInterval(showNext, 7000); 
+		});
 		
 		switchImg();
 
