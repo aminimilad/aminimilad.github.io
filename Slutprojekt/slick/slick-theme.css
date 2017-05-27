@@ -15,6 +15,7 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
+
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -42,16 +43,22 @@
     background: transparent;
 }
 
-@media screen and (max-width: 1000){
-    .slick-prev,
-.slick-next
-{
+@media screen and (min-width: 300px) and (max-width: 1000px){
+        
+        .slick-next
+    {
 
-    width: 20px;
-    height: 20px;
-  
+        width: 20px;
+        height: 20px;
+      
+    }
+    .slick-prev{
+        width:20px;
+        height:20px;
+    }
 }
-}
+
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
