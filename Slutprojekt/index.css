@@ -8,6 +8,9 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+body{
+    background-color:black;
+}
 @font-face {
     font-family: 'montserratlight';
     src: url('montserrat-light-webfont.woff2') format('woff2'), url('montserrat-light-webfont.woff') format('woff');
@@ -38,6 +41,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .headerbox {
     z-index: 1;
     position: fixed;
